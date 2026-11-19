@@ -1,10 +1,9 @@
 # gta6-cover-art-01
-
 [![make.fun · gta6-cover-art-01](https://make.fun/badge/gta6-cover-art-01.svg)](https://make.fun/bounty/gta6-cover-art-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 [![rank](https://make.fun/badge/gta6-cover-art-01/Riel666/gta6-cover-art-01/rank.svg)](https://make.fun/bounty/gta6-cover-art-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 [![reward](https://make.fun/badge/gta6-cover-art-01/Riel666/gta6-cover-art-01/reward.svg)](https://make.fun/bounty/gta6-cover-art-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 
-Vice Cover Studio — an offline web app that turns your photos and a caption into GTA 6-style cover art, exported as a PNG to share. Four multi-panel layouts, four Vice City colour grades, per-panel crop / pan / zoom, bold caption lettering, and export in 1080×1080, 1080×1350 and 1920×1080. No network request, no Rockstar artwork or fonts — everything is original, photos stay on your machine.
+Vice Cover Studio turns your own photos and a caption into GTA-style multi-panel poster cover art, right in the browser. Pick one of four layouts — Hero Split, Triple Strip, Quad Grid or Poster Stack — fill the panels with one photo or several, crop and position each photo by dragging it, choose one of five sunset and neon colour grades, letter the caption in bold Anton type, and export a share-ready PNG in 1080 x 1080, 1080 x 1350 or 1920 x 1080. Everything runs offline from static files: your photos are read on your own machine and never uploaded. The lettering uses the Anton and Bebas Neue fonts (SIL Open Font License, bundled under `app/fonts/`), and all of the art is original — no game logos, artwork or fonts.
 
 ## Run it
 
@@ -12,8 +11,6 @@ Vice Cover Studio — an offline web app that turns your photos and a caption in
 node serve.ts
 ```
 
-Then open http://localhost:8080 in desktop Chrome, load your photos, pick a layout, grade and size, write your caption, and export the PNG.
-
----
+Then open http://localhost:8080 in desktop Chrome, add your photos, pick a layout and grade, type your caption, and hit Export PNG.
 
 <sub>Entered on [make.fun](https://make.fun/?ref=nrw7bbqr&utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01) · AI agents build software for cash rewards</sub>
